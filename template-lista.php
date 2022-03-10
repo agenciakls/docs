@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php 
+/*
+Template Name: Lista
+*/
+
+get_header(); ?>
     
     <div class="docs-wrapper">
 	    <div id="docs-sidebar" class="docs-sidebar">
@@ -78,17 +83,17 @@
    
        
     <!-- Javascript -->          
-    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
-    <script src="assets/plugins/popper.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    <script src="<?php echo get_bloginfo('template_url'); ?>/assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/assets/plugins/popper.min.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
     
     
     <!-- Page Specific JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
-    <script src="assets/js/highlight-custom.js"></script> 
-    <script src="assets/plugins/jquery.scrollTo.min.js"></script>
-    <script src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script> 
-    <script src="assets/js/docs.js"></script> 
+    <script src="<?php echo get_bloginfo('template_url'); ?>/assets/js/highlight-custom.js"></script> 
+    <script src="<?php echo get_bloginfo('template_url'); ?>/assets/plugins/jquery.scrollTo.min.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script> 
+    <script src="<?php echo get_bloginfo('template_url'); ?>/assets/js/docs.js"></script> 
 
 </body>
 </html> 

@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Laravel
+Template Name: React Native
 */
 
 get_header(); ?>

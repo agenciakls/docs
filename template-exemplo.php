@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php 
+/*
+Template Name: Exemplo
+*/
+
+get_header(); ?>
 
 <div class="docs-wrapper">
     <div id="docs-sidebar" class="docs-sidebar">
@@ -212,7 +217,7 @@
                     <p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
                     <h5>Image Lightbox Example:</h5>
                     <figure class="figure docs-figure py-3">
-                        <a href="assets/images/features/appify-theme-projects-overview-lg.jpg" data-title="Image Lightbox Example" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/features/appify-add-members.gif" alt="" style="width: 600px;"></a>
+                        <a href="<?php echo get_bloginfo('template_url'); ?>/assets/images/features/appify-theme-projects-overview-lg.jpg" data-title="Image Lightbox Example" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="<?php echo get_bloginfo('template_url'); ?>/assets/images/features/appify-add-members.gif" alt="" style="width: 600px;"></a>
                         <figcaption class="figure-caption mt-3"><i class="fas fa-info-circle mr-2"></i>Credit: the above screencast is taken from <a class="theme-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Appify theme</a>.</figcaption>
                     </figure>
 
@@ -678,17 +683,17 @@
 
 
 <!-- Javascript -->
-<script src="assets/plugins/jquery-3.4.1.min.js"></script>
-<script src="assets/plugins/popper.min.js"></script>
-<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php echo get_bloginfo('template_url'); ?>/assets/plugins/jquery-3.4.1.min.js"></script>
+<script src="<?php echo get_bloginfo('template_url'); ?>/assets/plugins/popper.min.js"></script>
+<script src="<?php echo get_bloginfo('template_url'); ?>/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
 
 <!-- Page Specific JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
-<script src="assets/js/highlight-custom.js"></script>
-<script src="assets/plugins/jquery.scrollTo.min.js"></script>
-<script src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
-<script src="assets/js/docs.js"></script>
+<script src="<?php echo get_bloginfo('template_url'); ?>/assets/js/highlight-custom.js"></script>
+<script src="<?php echo get_bloginfo('template_url'); ?>/assets/plugins/jquery.scrollTo.min.js"></script>
+<script src="<?php echo get_bloginfo('template_url'); ?>/assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+<script src="<?php echo get_bloginfo('template_url'); ?>/assets/js/docs.js"></script>
 
 </body>
 

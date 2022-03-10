@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Laravel
+Template Name: CakePHP
 */
 
 get_header(); ?>
